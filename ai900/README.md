@@ -60,4 +60,16 @@ ces cas d'usages sont les suivant :
 - indexation de documents pour la recherche
 - identification des points clé a partir de transcription ou de l'enregistrement de reunion
 
+## IA responsable
+LEs principes pour une IA responsable :
+- impartialité : les données sont sur lesquels sont entrainés nos IA sont sélectionné par des humains un biais inconscient peut donc etre introduit de part la selection discriminatoire que les données eux meme. les Ingénieur Ia doivent dont s'assurer de minimiser les préjugé dans les données d'entrainement et d'assurer l'équité durant la phase de test
 
+- fiabilité et sécurité : l'ia etant basé sur des modeles probabiliste il n'est donc pas infaible nos applications doivent toujours tenir compte de ce risque
+
+- confidentialité et sécurité : les donées utilisés lors de l'entrainement doivent etre gardés en tout sécurité et les modeles résultant ne doivent pas etre utilisé pour révéler des informations sensible a caractere personnel sur les personnes ou organisations privées
+
+- Inclusivité : on doit s'asssurer que nos solution d'IA n'excluent pas certainent personnes, le combat ici est de faire bénéfiecer tout le monde des avantages qu'offre l'ia
+
+- transparence : l'utilisateur doit etre au courant de comment le systeme fonctionne et des limitations potentiel qui peut se presenter
+
+- responsablité :  les personnes et organisations qui developent et distribuent des solutions d'ia sont responsable de leurs actions
