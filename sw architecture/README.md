@@ -44,3 +44,10 @@ Il existe plusieurs chemins par lesquels des API peuvent être conçu. Les plus 
 - RESt
 - SOAP
 - GraphQL
+
+### What's modularity ?
+La modularité en architecture logiciel c'est la capacité a diviser de grosse chose en petite partie. C'est cette pratique qui permet de rendre les grosses base de code plus maintenanble et comprehensible.
+
+la modularité a beaucoup d'avantage :
+- ça donne une bonne organisation et une meilleur visualisation du projet
+- chaque module peut être testé séparement ce qui rend le projet plus facile a maintenir et a debuger
