@@ -73,3 +73,30 @@ LEs principes pour une IA responsable :
 - transparence : l'utilisateur doit etre au courant de comment le systeme fonctionne et des limitations potentiel qui peut se presenter
 
 - responsablité :  les personnes et organisations qui developent et distribuent des solutions d'ia sont responsable de leurs actions
+
+
+## Exercice
+Ici l'idée était de comprendre et tester un agent IA.
+Plus spécifiquement [Ask Andrew](https://microsoftlearning.github.io/mslearn-ai-concepts/Instructions/exercises/01-explore-agent.html) ;)
+
+### Compréhension de l'architecture
+
+Comment Ask Andrew marche ?
+
+Le processus peut être découpé en 6 étapes :
+
+1. l'utilisateur soumet sa question (un prompt)
+2. L'application extrait les mots clés du prompt et utilise ces mots clés pour intérroger une base de connaissance.
+
+Pour cette app, la base de connaissance est le fichier [index.json](https://microsoftlearning.github.io/ai-apps/ask-andrew/index.json), chargé localement dans notre navigateur. Plus scalable, les angents prêt pour la production ont une base de connaissance encore plus fournie et compréhensible.
+3. La requete retourne un texte de connaissance stoké pour fournir un contexte qui peut aider pour répondre a la quuestion posée
+4. l'agent soumet un message au llm.
+le messages est constitué de :
+- Prompt System : contient les instructions sur comment le model doit formater sa réponse
+- Les infos de contexte : ceux retournées par la requette
+- la question de départ
+5. Le LLm génere une réponse a la question en utilisant tout le contexte fournis
+6. l'agent répond au chat avec la réponse
+
+
+Cette architecture reflecte exactement comment plusieurs agents IA en production sont conçus. C'est basé sur un pattern général appelé RAG Retrieval Augmented Generation.
