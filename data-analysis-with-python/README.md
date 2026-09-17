@@ -10,6 +10,9 @@ The data analysis process :
 
 2. Real example Data Analysis with 
 
+- What's data frame ?
+It's a special word, data structure that we use in the pandas tool.
+
 - Data Analysis Example :
     - *df.head()* by default let us see the first 5 lignes of our dataset
     - *df.shape* tell us how many rows and columns we have
