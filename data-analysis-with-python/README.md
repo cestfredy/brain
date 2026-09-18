@@ -76,6 +76,14 @@ With `Bokeh` we can have dynamic plots, intead of a static one like with `matplo
 More about it [there](https://docs.bokeh.org/en/latest/docs/first_steps.html) !
 
 4. Intro to NumPy
+
+### Note
+
+Numpy == Numerical Python
+
+Why Numpy is better ? 
+![Numpy better ?](./pics/numpy.png)
+
 5. Intro to Pandas
 6. Data Cleaning
 7. Reading Data SQL, CSVs, APTs, etc
